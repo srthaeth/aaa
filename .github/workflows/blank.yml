@@ -3,7 +3,7 @@ on: [push, pull_request]
 jobs:
   build:
     name: PLAYBOOK
-    runs-on: ubuntu-latest-m
+    runs-on: aaa
     strategy:
       max-parallel: 120
       fail-fast: false
